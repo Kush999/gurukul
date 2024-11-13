@@ -1,0 +1,191 @@
+body {
+    background: linear-gradient(135deg, #6a0dad, #ff6347); /* Colorful background */
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+    background-size: cover;
+  }
+  
+  header {
+    background-color: rgba(0, 0, 0, 0.6); /* Dark semi-transparent header */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #ffcc00;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  main {
+    margin-top: 30px;
+  }
+  
+  .card {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid #ff6347;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Hover effect */
+  }
+  
+  .card-title {
+    font-size: 1.6rem;
+    color: #ffcc00;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+  }
+  
+  .card-subtitle {
+    color: #00ffff; /* Changed to bright cyan for better visibility */
+    font-size: 1.1rem;
+  }
+  
+  .card-text {
+    font-size: 1.1rem;
+    color: #d3d3d3;
+  }
+  
+  .btn {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #ff4500;
+  }
+  
+  footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #ffcc00;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  .col-md-4 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .mt-auto {
+    margin-top: auto;
+  }
+  
+  /* General style for the Expedition 1 page and level buttons */
+/* Expedition 1 page styling */
+/* General body styling */
+/* General body styling */
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #1a1a2e;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Header styling */
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ffcc00;
+  }
+  
+  /* Level page title */
+  h2 {
+    font-size: 1.8em;
+    margin-top: 20px;
+    color: #ffc107;
+  }
+  
+  /* Instructions text */
+  p {
+    font-family: 'Press Start 2P', cursive;
+    color: #cccccc;
+    margin-bottom: 20px;
+  }
+  
+  /* Level buttons styling */
+  .level-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+    margin-bottom: 50px; /* Adds space between buttons and footer */
+  }
+  
+  .level-buttons button {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 300px;
+    transition: transform 0.2s, background-color 0.2s;
+  }
+  
+  .level-buttons button:hover {
+    background-color: #ff8800;
+    transform: scale(1.05);
+  }
+  
+  /* Arrow styling between levels */
+  .arrow {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2em;
+    color: #ffcc00;
+    margin: 10px 0;
+  }
+  
+  /* Footer styling */
+  footer p {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.8em;
+    color: #777;
+    margin-top: 50px;
+  }
+  
+  
+  /* Video container styling */
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    color: #ffcc00;
+    margin-top: 20px;
+  }
+  
